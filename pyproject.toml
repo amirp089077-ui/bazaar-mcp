@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bazaar-mcp"
+version = "1.0.0"
+description = "Production Model Context Protocol (MCP) Server for Cafe Bazaar (کافه بازار)"
+readme = "README.md"
+authors = [{ name = "amirp089077-ui" }]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = []
+
+[project.scripts]
+bazaar-mcp = "bazaar_mcp.server:main"

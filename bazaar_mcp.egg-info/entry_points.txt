@@ -1,0 +1,2 @@
+[console_scripts]
+bazaar-mcp = bazaar_mcp.server:main
